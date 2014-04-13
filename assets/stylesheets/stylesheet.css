@@ -5431,5 +5431,154 @@ th.hide-for-touch {
   display: table-cell !important; }
 
 body {
-  background-color: #999;
-  font-family: 'Alegreya', serif; }
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #F5F5F5;
+  letter-spacing: 1px;
+  font-weight: 300; }
+
+#wrap {
+  width: 100%;
+  text-align: left;
+  max-width: 1000px;
+  background-color: #fff;
+  margin: 20px auto;
+  border: 1px solid #000; }
+
+h1, h3, #blacklist p {
+  font-family: 'Alegreya', serif;
+  color: #fff; }
+
+h1, h2 {
+  font-size: 320%;
+  text-align: center; }
+
+h2 {
+  font-family: 'Alegreya', serif;
+  margin-bottom: 0em; }
+
+h3 {
+  font-size: 140%; }
+
+h4 {
+  font-size: 140%;
+  font-style: italic;
+  font-family: 'Alegreya', serif;
+  margin-bottom: 0.8em;
+  font-weight: bold;
+  border-bottom: 1px solid #000; }
+
+h5 {
+  font-size: 2rem;
+  color: #4D0000;
+  font-family: 'Alegreya', serif;
+  font-weight: bold; }
+
+header {
+  background: #000; }
+
+img#logo {
+  padding: 20px; }
+
+img#header-img {
+  margin: 0px 20px; }
+
+#navbar ul {
+  list-style: none; }
+#navbar ul li {
+  display: in-line;
+  float: left; }
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  background-color: #000;
+  color: #F1DE99;
+  padding: 0em 3em 0.5em 2.5em;
+  font-size: 120%; }
+#navbar ul li a:hover {
+  color: #8c8500; }
+
+#about {
+  padding: 1em 3em;
+  clear: both; }
+
+#about p {
+  font-size: 90%;
+  line-height: 1.2em;
+  border-left: 10px; }
+
+span {
+  color: #4d0000;
+  font-weight: bold;
+  font-size: 120%; }
+
+img.about-img {
+  padding: 1px;
+  margin: 1em 0em 1em 0em;
+  border: 10px solid #4D0000; }
+
+.list {
+  padding: 1.5em; }
+  .list p {
+    font-size: 80%;
+    margin-top: -1em; }
+
+#blacklist {
+  background: #000; }
+  #blacklist p {
+    line-height: 1.2em;
+    margin-top: 1em; }
+  #blacklist h1 {
+    padding: 0.5em 0em; }
+
+form {
+  color: #fff; }
+
+.button {
+  background-color: #4D0000; }
+
+#selection {
+  text-align: center;
+  margin: 0em 18em;
+  padding-top: 0em;
+  border-top: 1px solid #000; }
+
+#selection p {
+  font-size: 150%; }
+
+#wine {
+  background: url(../images/winebackground.png) no-repeat bottom center; }
+
+.line {
+  margin: 0em 18em 1em 18em;
+  border-bottom: 1px solid #fff; }
+
+footer {
+  background: #000; }
+  footer p {
+    color: #fff;
+    font-size: 80%; }
+
+img#map {
+  padding: 1em 4em; }
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid #1c150d;
+  margin: 0px auto; }
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 50px solid #1c150d;
+  margin: 0 auto; }
+
+.small-4 {
+  padding: 0em 2.5em 0em 2em; }
